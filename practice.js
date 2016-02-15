@@ -62,7 +62,7 @@ Instead, console.log your whole backPack object and then check out the console. 
 
 
 
-//Create another 'me' object with the following properties name, age, height, gender, married, eyeColor, hairColor. Fill those properties in with the appropriate values.
+//Create an 'alsoMe' object with the following properties name, age, height, gender, married, eyeColor, hairColor. Fill those properties in with the appropriate values.
 
   //Code Here
 
@@ -110,7 +110,7 @@ Instead, console.log your whole backPack object and then check out the console. 
 
 
 
-var user = {
+var user1 = {
     name: 'Tyler McGinnis',
     email: null,
     pwHash: 'U+Ldlngx2BYQk',
@@ -135,7 +135,7 @@ that each value is truthy. If it's not truthy, remove it from the object. */
 
 
 
-var user = {
+var user2 = {
         name: 'Tyler McGinnis',
         age: 24,
         pwHash: 'U+Ldlngx2BYQk',
@@ -193,21 +193,19 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
 
 
 
-// Create a function called MakeCard which takes in all the data it needs to make a Credit Card object and returns that object so that whenever you invoke MakeCard, you get a brand new credit card.
+// Create a function called MakeCard which takes in cardNumber, expirationDate, and securityCode to make a Credit Card object and returns that object so that whenever you invoke MakeCard, you get a brand new credit card.
 
   //Code Here
-  
-  
-  
+
+
+
 //NEXT PROBLEM
 
 
 
 /* As of this point you should have a MakePerson and a MakeCard function which returns you either a person or a credit card object.
    Now, create a bindCard function that takes in a person object as its first parameter and a creditcard object as its second parameter.
-   Have bindCard merge the two parameters together into a new object which contains all the properties from the person as well as the creditcard.
+   Have bindCard merge the two parameters together into a new object which contains all the properties from the person as well as the creditcard. While Object.assign would give you the answer, specRunner requires an answer without using it.
 */
 
   //Code Here
-
-
